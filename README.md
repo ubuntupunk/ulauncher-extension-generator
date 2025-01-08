@@ -28,7 +28,9 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## References
 
 - [Ulauncher Documentation](http://docs.ulauncher.io/en/stable/extensions/intro.html)
-
+- [Ulauncher Demo Extension](https://github.com/Ulauncher/ulauncher-demo-ext)
+  
 ## License
 
 [MIT License](LICENSE)
+
