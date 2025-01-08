@@ -21,13 +21,13 @@ To use this tool, run the `ulauncher-generator` command, and follow the prompts 
 ulauncher-extension-generator
 ```
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
+
+## References
+
+- [Ulauncher Documentation](http://docs.ulauncher.io/en/stable/extensions/intro.html)
 
 ## License
 
