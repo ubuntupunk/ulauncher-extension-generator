@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ulauncher-generator",
-    version="0.1.0",
+    version="0.1.2",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
@@ -15,11 +15,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'ulauncher-generator=ulauncher_extension_generator:main',
+            'ulauncher-generator=ulauncher_extension_generator.main:main',
         ],
-    },
-    package_data={
-        'ulauncher_extension_generator': ['db/*.json', 'icon.png'],
     },
     author="ubuntupunk",
     author_email="ubuntupunk@gmail.com",

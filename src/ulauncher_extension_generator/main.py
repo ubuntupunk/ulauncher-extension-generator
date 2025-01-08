@@ -84,7 +84,6 @@ class ItemEnterEventListener(EventListener):
 if __name__ == '__main__':
     {extension_name}().run()
 
-    return main_py_content
 '''
     return main_py_content
 
