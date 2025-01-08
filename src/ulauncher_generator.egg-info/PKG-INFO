@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: ulauncher-generator
+Version: 0.1.0
+Summary: A Ulauncher extension generator
+Home-page: https://github.com/ubuntupunk/ulauncher-extension-generator
+Author: ubuntupunk
+Author-email: ubuntupunk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
 # ulauncher-extension-generator
 
 This project is a tool to generate boilerplate code for Ulauncher extensions. It simplifies the process of creating new extensions by providing a basic structure and necessary files.
@@ -18,8 +35,10 @@ This project is a tool to generate boilerplate code for Ulauncher extensions. It
 To use this tool, run the `ulauncher-generator` command, and follow the prompts to create a new extension.
 
 ```bash
-ulauncher-extension-generator
+ulauncher-extension-generator my_extension
 ```
+
+This will create a new directory named `my_extension` with the necessary files for a Ulauncher extension.
 
 ## License
 

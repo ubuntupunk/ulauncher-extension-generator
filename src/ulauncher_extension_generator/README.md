@@ -1,4 +1,4 @@
-# ulauncher-extension-generator
+# ulauncher-generator
 
 This project is a tool to generate boilerplate code for Ulauncher extensions. It simplifies the process of creating new extensions by providing a basic structure and necessary files.
 
@@ -13,12 +13,21 @@ This project is a tool to generate boilerplate code for Ulauncher extensions. It
 - Creates a `requirements.txt` file for package dependencies.
 - Creates an `images` directory for extension icons.
 
+
+## Installation
+
+To install this project, run the following command:
+
+```bash
+pip install ulauncher-generator
+```
+
 ## Usage
 
 To use this tool, run the `ulauncher-generator` command, and follow the prompts to create a new extension.
 
 ```bash
-ulauncher-extension-generator
+ulauncher-generator
 ```
 
 ## License

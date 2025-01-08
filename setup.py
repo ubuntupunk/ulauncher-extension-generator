@@ -14,7 +14,7 @@ setup(
         ]
     },
     entry_points={
-    'console_scripts': [
+        'console_scripts': [
             'ulauncher-generator=ulauncher_extension_generator:main',
         ],
     },
@@ -24,7 +24,7 @@ setup(
     author="ubuntupunk",
     author_email="ubuntupunk@gmail.com",
     description="A Ulauncher extension generator",
-    long_description=open('src/ulauncher_extension_generator/README.md').read(),
+    long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ubuntupunk/ulauncher-extension-generator",
     classifiers=[
