@@ -96,12 +96,13 @@ def main():
     developer_name = input(f"{BOLD}Enter your name (developer name): {RESET}")
     homepage_url = input(f"{RED}Enter the homepage URL for your extension: {RESET}")
     keyword = input(f"{BLUE}Enter keyword trigger for your extension e.g dm: {RESET}" )
+    username = input(f"{BLUE}Enter your GitHub username: {RESET}")
 
     manifest_content = generate_manifest(extension_name, description, developer_name, homepage_url, keyword)
     main_py_content = generate_main_py(extension_name.replace(" ", "").replace("-", ""))
     requirements_txt_content = generate_requirements_txt()
 
-    extension_dir = extension_name.replace(" ", "").replace("-", "")
+    extension_dir = os.path.join(os.path.expanduser('~'), '.local', 'share', 'ulauncher', 'extensions', f'com.github.{username}.{extension_name.replace(' ', '')}')
     os.makedirs(extension_dir, exist_ok=True)
     os.makedirs(os.path.join(extension_dir, "images"), exist_ok=True)
     versions_content = generate_versions()
