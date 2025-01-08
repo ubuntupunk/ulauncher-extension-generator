@@ -1,4 +1,4 @@
-# ulauncher-extension-generator
+# ulauncher-generator
 
 This project is a tool to generate boilerplate code for Ulauncher extensions. It simplifies the process of creating new extensions by providing a basic structure and necessary files.
 
@@ -18,7 +18,7 @@ This project is a tool to generate boilerplate code for Ulauncher extensions. It
 To use this tool, run the `ulauncher-generator` command, and follow the prompts to create a new extension.
 
 ```bash
-ulauncher-extension-generator
+ulauncher-generator
 ```
 
 ## Contributing
